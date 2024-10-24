@@ -1,0 +1,73 @@
+body{
+    background: url('Image/fond3.png');
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+#kanji {
+    font-size: 200px;
+    color: #00c1fc;
+    text-align: center;
+    margin: 2px;
+}
+
+#answer {
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 24px;
+    margin: 20px;
+    color: #03c022;
+}
+
+.quiz{
+    text-align: center;
+}
+
+p{
+    margin: 5px;
+}
+
+.home_button{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, .2); 
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
