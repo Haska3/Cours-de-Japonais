@@ -49,3 +49,22 @@ h1 {
     z-index: 1;
 }
 
+.boutton2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, .2); 
+    border-radius: 20px;
+    height: 60px;
+    width: 250px;
+    padding: 15px;
+    margin: 40px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+
