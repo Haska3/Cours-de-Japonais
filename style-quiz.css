@@ -33,7 +33,7 @@ h1{
 button {
     font-size: 20px;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: rgb(255, 100, 173);
     color: white;
     border: none;
     border-radius: 10px;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: rgb(255, 144, 196);
 }
 
 #result {
@@ -70,4 +70,25 @@ p{
     width: 25px;
     background: transparent;
     backdrop-filter: blur(20px);
+}
+
+.hiragana-buttons{
+    display: flex;
+    justify-content: space-around; /* Espacement égal entre les boutons */
+    padding: 50px;
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 100, 173);
+    font-size: 30px;
+}
+
+.selection {
+    font-size: 30px;
+    color: aliceblue;
+    align-items: center;
 }
